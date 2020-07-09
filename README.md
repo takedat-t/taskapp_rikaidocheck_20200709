@@ -20,6 +20,9 @@ $ git clone https://github.com/sample-874/sample-app.git
 $ bundle install
 ```
 
+＃更新確認20200710　"git push"
+
+
 その後、データベースへのマイグレーションを実行します。
 
 ```
