@@ -34,6 +34,7 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
+  
 }
 
 h2 {
@@ -52,12 +53,16 @@ p {
 
 /* ヘッダー */
 
+#header {
+  background-color: teal;
+}
+
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
   color: #fff;
-  text-transform: uppercase;
+  text-transform: uppercase; /*大文字にするか小文字するかを指定できるtext-transformプロパティ text-transform. テキストを大文字（uppercase）、小文字（lowercase）に変換*/
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
